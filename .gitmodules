@@ -1,0 +1,3 @@
+[submodule "heif"]
+	path = heif
+	url = https://github.com/nokiatech/heif.git
