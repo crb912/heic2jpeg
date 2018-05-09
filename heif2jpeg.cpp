@@ -1,5 +1,3 @@
-#include <map>
-#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include "heifreader.h"
