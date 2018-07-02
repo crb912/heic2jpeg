@@ -10,10 +10,13 @@ I use the code in my project.
 
 This project is in developing, and it needs some tweak.
 
+**Knowledge about HEIF format(written in Chinese)**:
+[HEIF格式详细解读](https://www.crb912.top/computer%20science/2018/05/01/HEIF-format.html)
+
 ---
 ## Part Ⅰ: Dependencies
 ### 1. glib2.0-dev
-Since `libvips` has to have `glib2.0-dev`, you must make sure that you have install it. If you had done it, you could pass the step.
+Since `libvips` has to have `glib2.0-dev`, you must make sure that you have installed it. If you had done it, you could circumvent the step.
 #### How to install`glib2.0-dev` ?
 **ubuntu**：
 ```
@@ -146,7 +149,7 @@ When compiler success,there is a executable file `heic2jpg` in `/build/`.
 ```
 ./heic2jpg inputFileName.heic outputFileName.jpeg
 ```
-If you want to support more picture format, please change `libvips` comfigure arguments.
+If you want to support more picture format, please change `libvips` configure arguments.
 
 **Error handle**:  `libvips-cpp.so.42`
 ```
