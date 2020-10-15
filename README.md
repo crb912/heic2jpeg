@@ -121,7 +121,7 @@ cmake --build .
 cd ..
 cd ..
 ls     // CMakeLists.txt  heif  heif2jpeg.cpp  READNE.md
-madir build && cd build
+mkdir build && cd build
 cmake ..
 cmake --build .
 ```
